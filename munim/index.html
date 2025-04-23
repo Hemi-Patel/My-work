@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Munim</title>
+  <!-- bootstrap link  -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- icon link  -->
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+  <!-- custom css  -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- bootstrap link  -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class=" main m-2">
+    <div class="sidebar ">
+      <div class="logo ">
+        <img src="assets/images/logo.svg" alt="">
+      </div>
+      <div class="sidebar-menu border border-1 p-2 my-2 rounded-3 ">
+        <p class="text-secondary my-2 fw-semibold">DASHBOARD</p>
+        <button class="text-primary border border-1 bg-primary-subtle rounded w-100 text-start "><i
+            class="ri-home-smile-2-line px-2"></i>Overview</button>
+        <div class="master ">
+          <p class="text-secondary my-2 border-bottom text-uppercase fw-semibold">master</p>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item border border-0">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed px-1 py-2" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#account-master" aria-expanded="false" aria-controls="account-master">
+                  <i class="ri-briefcase-3-line pe-2"></i>Account Master
+                </button>
+              </h2>
+              <div id="account-master" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <ul class="my-2 px-0 border border-1 rounded">
+                  <li class="p-2 border-bottom"><a href="#">Charts Of Account</a></li>
+                  <li class="p-2  border-bottom"><a href="#" class="d-flex justify-content-between">Account<i
+                        class="ri-add-line"></i></a></li>
+                  <li class="p-2  border-bottom"><a href="#" class="d-flex justify-content-between">Transporter<i
+                        class="ri-add-line"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion-item border border-0">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed px-1 py-2" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#item-master" aria-expanded="false" aria-controls="item-master">
+                  <i class="ri-survey-line pe-2"></i>Item Master
+                </button>
+              </h2>
+              <div id="item-master" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <ul class="my-2 px-0 border border-1 rounded">
+                  <li class="p-2  border-bottom "><a href="#" class="d-flex justify-content-between">Item<i
+                        class="ri-add-line"></i></a></li>
+                  <li class="p-2  border-bottom"><a href="#" class="d-flex justify-content-between">Item Group <i
+                        class="ri-add-line"></i></a></li>
+                  <li class="p-2  border-bottom"><a href="#" class="d-flex justify-content-between">Item Category<i
+                        class="ri-add-line"></i></a></li>
+                  <li class="p-2  border-bottom"><a href="#" class="d-flex justify-content-between">Unit<i
+                        class="ri-add-line"></i></a></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="transaction ">
+          <p class="text-secondary my-2 border-bottom p-0 text-uppercase fw-semibold">Transaction</p>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item border border-0 ">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed border border-0 px-1 py-2" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#sales" aria-expanded="false" aria-controls="sales">
+                  <i class="ri-shopping-cart-2-line pe-2"></i> Sales
+                </button>
+              </h2>
+              <div id="sales" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <ul class="my-2 px-0 border border-1 rounded">
+                  <li class="p-2  border-bottom"><a href="#" class="d-flex justify-content-between"> Quotation <i
+                        class="ri-add-line"></i></a></li>
+                  <li class="p-2  border-bottom"><a href="#" class="d-flex justify-content-between">Delivery Challan<i
+                        class="ri-add-line"></i></a></li>
+                  <li class="p-2  border-bottom"><a href="#" class="d-flex justify-content-between">Sales Invoice<i
+                        class="ri-add-line"></i></a></li>
+                  <li class="p-2  border-bottom"><a href="#" class="d-flex justify-content-between">Sales Return<i
+                        class="ri-add-line"></i></a></li>
+                  <li class="p-2  border-bottom"><a href="#">Bulk Invoice Update</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion-item border border-0 ">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed border border-0 px-1 py-2" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#purchase" aria-expanded="false" aria-controls="purchase">
+                  <i class="ri-shopping-bag-line pe-2"></i>Purchase
+                </button>
+              </h2>
+              <div id="purchase" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <ul class="my-2 px-0 border border-1 rounded">
+                  <li class="p-2  border-bottom "><a href="#" class="d-flex justify-content-between">Purchase Order<i
+                        class="ri-add-line"></i></a></li>
+                  <li class="p-2  border-bottom"><a href="#" class="d-flex justify-content-between">Purchase Bill <i
+                        class="ri-add-line"></i></a></li>
+                  <li class="p-2  border-bottom"><a href="#" class="d-flex justify-content-between">Purchase Return<i
+                        class="ri-add-line"></i></a></li>
+
+                </ul>
+              </div>
+            </div>
+
+          </div>
+          <ul class="px-1 py-1">
+            <li class="d-flex justify-content-between"><a href="#"><i class="ri-coins-line pe-2 "></i>Expense</a> <a
+                href="#"><i class="ri-add-line "></i></a> </li>
+          </ul>
+        </div>
+        <div class="core-accounting ">
+          <p class="text-secondary my-2 border-bottom p-0 text-uppercase fw-semibold">Core Accounting</p>
+          <ul class="px-1 py-1">
+            <li class="d-flex justify-content-between py-2"><a href="#"><i class="ri-receipt-line pe-2"></i></i>Receipt</a> <a
+                href="#"><i class="ri-add-line "></i></a> </li>
+            <li class="d-flex justify-content-between py-2"><a href="#"><i class="ri-hand-coin-line pe-2"></i>Payment</a> <a
+                href="#"><i class="ri-add-line "></i></a> </li>
+            <li class="d-flex justify-content-between py-2"><a href="#"><i class="ri-contract-line pe-2"></i>Contra Entry</a>
+              <a href="#"><i class="ri-add-line "></i></a> </li>
+            <li class="py-2"> <a href="#"><i class="ri-bank-line pe-2"></i>Bank Reconciliation</a></li>
+          </ul>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item border border-0  ">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed border border-0 px-1 py-2" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#jouurnal" aria-expanded="false" aria-controls="jouurnal">
+                  <i class="ri-book-open-line pe-2"></i>Journal
+                </button>
+              </h2>
+              <div id="jouurnal" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <ul class="my-2 px-0 border border-1 rounded">
+                  <li class="p-2  border-bottom"><a href="#" class="d-flex justify-content-between"> Journal Voucher <i
+                        class="ri-add-line"></i></a></li>
+                  <li class="p-2  border-bottom"><a href="#" class="d-flex justify-content-between">GST Journal
+                      Voucher<i class="ri-add-line"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="inventory">
+          <p class="text-secondary my-2 border-bottom p-0 text-uppercase fw-semibold">Inventory</p>
+          <ul class="px-1 py-1">
+            <li class="d-flex justify-content-between py-2"><a href="#"><i class="ri-funds-box-line pe-2"></i></i>Stock
+                Adjustment</a> <a href="#"><i class="ri-add-line "></i></a> </li>
+            <li class="d-flex justify-content-between py-2"><a href="#"><i class="ri-stock-line pe-2"></i>Stock Journal</a>
+              <a href="#"><i class="ri-add-line"></i></a> </li>
+          </ul>
+        </div>
+        <div class="business-review">
+          <p class="text-secondary my-2 border-bottom p-0 text-uppercase fw-semibold">Business Review</p>
+          <ul class="px-1 py-1">
+            <li class="d-flex justify-content-between py-2"><a href="#"><i class="ri-file-chart-line pe-2"></i></i>Reports</a></li>
+            <li class="d-flex justify-content-between py-2"><a href="#"><i class="ri-book-line pe-2 "></i>GST Compliance</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sidebar-content border border-1 p-2 my-2 rounded-3">
+        <ul class="px-1 py-1" >
+          <li class="d-flex justify-content-between py-2"><a href="#"><i class="ri-whatsapp-line pe-2"></i>Whatsapp</a></li>
+          <li class="d-flex justify-content-between py-2"><a href="#"><i class="ri-toggle-line pe-2"></i>Try GST Filing</a></li>
+          <li class="d-flex justify-content-between py-2"><a href="#"><i class="ri-computer-line pe-2"></i>Download Desktop App</a></li>
+          <li class="d-flex justify-content-between py-2"><a href="#"><i class="ri-settings-2-line pe-2"></i>Setting</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="content">
+      <i class="ri-home-smile-2-line px-2"></i>
+    </div>
+  </div>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+img{
+    max-width: 100% !important;
+    display: block !important;
+}
+ul
+{
+    margin-bottom: 0 !important;
+}
+ul li{
+    list-style-type: none !important;
+    
+}
+a{
+    text-decoration: none !important;
+    color: #212529 !important;
+   
+}
+
+p{
+    font-size: 14px !important;
+}
+.sidebar
+{
+    position: fixed;
+    height: 100vh;  
+    width: 12% ;
+}
+.sidebar-menu
+{
+    overflow-y: auto;
+    height: 65vh;
+}
+
+.accordion-button::after{
+    width: 15px!important;
+    background-size: contain!important;
+}
+.content
+{
+    
+    width: 88% !important;
+    height: 100vh; 
+     
+}
