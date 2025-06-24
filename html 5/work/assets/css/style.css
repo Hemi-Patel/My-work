@@ -1,0 +1,83 @@
+img{
+    max-width: 100% !important;
+    display: block !important;
+}
+ul
+{
+    margin-bottom: 0 !important;
+}
+ul li{
+    list-style-type: none !important;
+    
+}
+a{
+    text-decoration: none !important;
+    color: #212529 !important;
+   
+}
+
+p{
+    
+    margin: 0 !important;
+}
+.main{
+    margin: 10px;
+    position: relative;
+    
+}
+.main .banner{
+    width: 728px;
+    height: 90px;
+    background-image: url('../image/bg_banner.jpeg');
+    position: absolute;
+}
+.main .banner .box-1{
+    border: 3px solid orangered;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 40px;
+    top:10px;
+    color: white;
+}
+.main .banner .box-1 img{
+    width: 20px;
+    height: 20px;
+}
+
+.main .banner .box-2{
+    border: 3px solid orangered;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 40px;
+    top:45px;
+    color: white;
+}
+.main .banner .box-3{
+    border: 3px solid orangered;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 170px;
+    top:10px;
+    color: white;
+}
+.main .banner .box-4{
+    border: 3px solid orangered;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 170px;
+    top:45px;
+    color: white;
+}
+.main .banner .price {
+    color:white;
+    margin-left: 50px;
+    font-weight: 900;
+}
